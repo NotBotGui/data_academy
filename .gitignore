@@ -1,0 +1,36 @@
+# Virtual environments
+envs/
+.venv/
+venv/
+
+# Database backups
+*.bak
+*.bak2
+database/backups/
+
+# Power BI cache
+.pbicache
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Streamlit cache
+.streamlit/cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/settings.json
