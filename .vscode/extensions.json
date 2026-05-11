@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-mssql.mssql",
+    "ms-toolsai.jupyter",
+    "eamodio.gitlens",
+    "usernamehw.errorlens",
+    "ms-python.python",
+    "ms-toolsai.vscode-jupyter",
+    "poor-mans-t-sql-formatter.poor-mans-t-sql-formatter"
+  ]
+}
