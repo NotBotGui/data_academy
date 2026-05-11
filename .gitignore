@@ -1,7 +1,7 @@
 # Virtual environments
-envs/
 .venv/
 venv/
+envs/
 
 # Database backups
 *.bak
@@ -10,6 +10,8 @@ database/backups/
 
 # Power BI cache
 .pbicache
+cache.abf
+localSettings.json
 
 # Python cache
 __pycache__/
@@ -29,7 +31,7 @@ Thumbs.db
 # Streamlit cache
 .streamlit/cache/
 
-# Jupyter checkpoints
+# Jupyter checkpoints and outputs (outputs stripped via nbstripout, see .gitattributes)
 .ipynb_checkpoints/
 
 # VS Code local settings
